@@ -14,6 +14,7 @@ struct HomeView: View {
     enum Tabs: String {
         case schedule
         case contact
+        case healthMetrics
     }
 
 
@@ -33,6 +34,10 @@ struct HomeView: View {
                 Contacts(presentingAccount: $presentingAccount)
             }
                 .customizationID("home.contacts")
+            Tab("Health Metrics", systemImage: "heart.fill", value: .healthMetrics) {
+                HealthMetricsView()
+            }
+                .customizationID("home.healthMetrics")
         }
             .tabViewStyle(.sidebarAdaptable)
             .tabViewCustomization($tabViewCustomization)

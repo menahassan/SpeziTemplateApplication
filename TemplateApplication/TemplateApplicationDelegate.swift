@@ -87,6 +87,18 @@ class TemplateApplicationDelegate: SpeziAppDelegate {
                 HKQuantityType(.stepCount),
                 deliverySetting: .anchorQuery(.automatic)
             )
+            CollectSample(
+                HKQuantityType(.dietaryProtein),
+                deliverySetting: .anchorQuery(.automatic)
+            )
+            CollectSample(
+                HKWorkoutType.workoutType(),
+                deliverySetting: .anchorQuery(.automatic)
+            )
+            CollectSample(
+                HKCategoryType(.sleepAnalysis),
+                deliverySetting: .anchorQuery(.automatic)
+            )
         }
     }
 }

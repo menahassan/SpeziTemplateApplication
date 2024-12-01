@@ -81,6 +81,15 @@
         }
       }
     },
+    "Dietary Protein: %.1f g" : {
+
+    },
+    "Duration: %@ seconds" : {
+
+    },
+    "End: %@" : {
+
+    },
     "Grant Access" : {
       "localizations" : {
         "en" : {
@@ -90,6 +99,9 @@
           }
         }
       }
+    },
+    "Health Metrics" : {
+
     },
     "HealthKit Access" : {
       "localizations" : {
@@ -241,6 +253,12 @@
         }
       }
     },
+    "No sleep data found." : {
+
+    },
+    "No workouts found." : {
+
+    },
     "NOTIFICATION_PERMISSIONS_DESCRIPTION" : {
       "localizations" : {
         "en" : {
@@ -291,6 +309,9 @@
         }
       }
     },
+    "Sleep" : {
+
+    },
     "Social Support Questionnaire" : {
       "localizations" : {
         "en" : {
@@ -340,6 +361,12 @@
           }
         }
       }
+    },
+    "Start: %@" : {
+
+    },
+    "Step Count: %.0f steps" : {
+
     },
     "Swift Package Manager" : {
       "localizations" : {
@@ -406,6 +433,9 @@
           }
         }
       }
+    },
+    "Workouts" : {
+
     },
     "Your Account" : {
       "localizations" : {
